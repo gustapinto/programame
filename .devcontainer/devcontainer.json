@@ -1,0 +1,21 @@
+{
+    "name": "Django",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "python",
+    "workspaceFolder": "/programame",
+    "runServices": [
+        "python"
+    ],
+    "forwardPorts": [
+        8000
+    ],
+    "settings": {
+        "editor.rulers": [80],
+        "python.languageServer": "Pylance",
+        "python.showStartPage": false,
+        "[python]": {
+            "editor.rulers": [72, 79],
+        }
+    },
+    "postCreateCommand": "/bin/sh -c 'apt update && apt install git -y'"
+}

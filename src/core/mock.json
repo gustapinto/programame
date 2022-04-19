@@ -1,0 +1,37 @@
+[
+    {
+        "id": "d76a9d82-4258-4dd3-afbe-176891c4a9eb",
+        "name": "API REST de filmes",
+        "summary": "Uma API para gerenciar seus filmes assistidos",
+        "description": "Crie uma API REST que liste os últimos filmes que você assistiu, cada filme será representado por um objeto JSON com os seguintes campos: nome, gênero, duração, nota e estúdio.",
+        "difficulty": "2",
+        "topics": [
+            "web",
+            "api",
+            "rest"
+        ]
+    },
+    {
+        "id": "ba38b408-2d88-4054-8988-f4f9e410d231",
+        "name": "Lista de tarefas",
+        "summary": "Organizando as tarefas de modo perosnalizado",
+        "description": "Crie um site ou um aplicativo que permita a criação de listas de tarefas, com os campos de título e descrição, o usuário poderá criar, editar e deletar essas listas, ele também deve ser capaz de concluir as tarefas da lista.",
+        "difficulty": "4",
+        "topics": [
+            "web",
+            "mobile",
+            "desktop"
+        ]
+    },
+    {
+        "id": "b0a82d7f-8f26-4e17-aace-b6c81929ec30",
+        "name": "Quadro Kanban",
+        "summary": "Criando um quadro de tarefas para times ágeis",
+        "description": "Crie um quadro para que muitos usuários possam organizar suas tarefas de equipe usando o modelo Kanban, esse quadro deve ter as colunas 'A fazer', 'Fazendo' e 'Concluídas', com cada quadro pertecendo a uma equipe diferente, e com as equipes sendo compostas de 1 a N usuários, usuários de uma equipe não devem podem interferir nas equipes que eles não participam, esses quadros terão tarefas com os campos nome, descrição e status",
+        "difficulty": "8",
+        "topics": [
+            "web",
+            "desktop"
+        ]
+    }
+]
