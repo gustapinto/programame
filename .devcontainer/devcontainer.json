@@ -17,5 +17,9 @@
             "editor.rulers": [72, 79],
         }
     },
+    "extensions": [
+        "ms-python.python",
+        "batisteo.vscode-django"
+    ],
     "postCreateCommand": "/bin/sh -c 'apt update && apt install git -y'"
 }
