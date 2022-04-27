@@ -4,6 +4,7 @@
         "name": "API REST de filmes",
         "summary": "Uma API para gerenciar seus filmes assistidos",
         "description": "Crie uma API REST que liste os últimos filmes que você assistiu, cada filme será representado por um objeto JSON com os seguintes campos: nome, gênero, duração, nota e estúdio.",
+        "testing": "Por se tratar de uma API REST testamos seu endpoint usando requisições com os difierentes verbos HTTP:<ul><li><b>GET:</b> ao enviar uma requisição GET sem parâmetros a API deverá retornar uma lista (array) com todos os objetos JSON existentes na base de dados, já se essa requisição tiver o id de um objeto esse deverá ser retornado, também em formato JSON.</li><li><b>POST:</b> ao enviar uma requisição POST com um objeto JSON como parâmetro esse objeto deverá ser criado na sua base de dados.</li><li><b>PUT:</b> enviando uma requisição com um parÂmetro contendo um JSON de uma entrada já existente essa entrada deverá ser atualizada com os novos dados.</li><li><b>DELETE:</b> enviando uma requisição juntamente com o id de um objeto existente esse objeto deverá ser removido do banco de dados</li></ul>",
         "difficulty": 2,
         "topics": [
             "web",
@@ -16,6 +17,7 @@
         "name": "Lista de tarefas",
         "summary": "Organizando as tarefas de modo perosnalizado",
         "description": "Crie um site ou um aplicativo que permita a criação de listas de tarefas, com os campos de título e descrição, o usuário poderá criar, editar e deletar essas listas, ele também deve ser capaz de concluir as tarefas da lista.",
+        "testing": "<ul><li><b>Criando tarefas:</b> quando o usuário clicar em criar uma tarefa uma requisição deverá ser feita para o <i>backend</i>, contendo os dados que o mesmo inseriu para a tarefa, com o <i>backend</i> salvando esses dados no banco de dados</li><li><b>Editando tarefas:</b> ao editar uma tarefa já existente a interface deverá atualizar para representar a nova tarefa, a entrada dela no banco de dados também deverá ser atualizada.</li><li><b>Deletando tarefas:</b> Quando o usuário deletar uma tarefa ela deverá ser excluída do banco de dados e a interface deverá deixar de exibí-la.</li></ul>",
         "difficulty": 5,
         "topics": [
             "web",
@@ -28,6 +30,7 @@
         "name": "Quadro Kanban",
         "summary": "Criando um quadro de tarefas para times ágeis",
         "description": "Crie um quadro para que muitos usuários possam organizar suas tarefas de equipe usando o modelo Kanban, esse quadro deve ter as colunas 'A fazer', 'Fazendo' e 'Concluídas', com cada quadro pertecendo a uma equipe diferente, e com as equipes sendo compostas de 1 a N usuários, usuários de uma equipe não devem podem interferir nas equipes que eles não participam, esses quadros terão tarefas com os campos nome, descrição e status",
+        "testing": "Em breve",
         "difficulty": 8,
         "topics": [
             "web",
